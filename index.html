@@ -1,0 +1,76 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>שם המשחק</title>
+    <meta name="description" content="למה לא אייסי טאוור" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+                <img id="logo" src=""/> <!--הלוגו של המשחק שלכם-->
+                <p>למה לא אייסי טוואר</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">
+                <img src="images/X.png" />
+            </a>
+            <h1>אודות</h1>
+            <p>אפיון ופיתוח: אלומה אפל, אופיר ברוך ואנסטסיה זולוטוחין.</p>
+            <p>אופיין ופותח במסגרת פרויקט משותף לקורסים: סביבות לימוד אינטראקטיביות 1, תכנות אינטראקציה ואנימציה 1 תשפ"ב </p>
+            <a href="https://www.hit.ac.il/telem/overview">
+                <p id="link">הפקולטה לטכנולוגיית למידה</p>
+
+                <img src="images/Artboard 1@3x.png" id="logoHit"/>
+            </a>
+            
+
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">
+                <img src="images/X.png" />
+            </a>
+            <h1>איך משחקים?</h1>
+            <p>יצחק מאוד אוהב לשתות מיץ תפוחים, אבל בשביל שזה יקרה יצחק צריך לענות על השאלות ולאסוף את התפוחים שנופלים, וכמה שיותר מהם. בהתחלה נזהה את התשובה הנכונה לשאלה. נאסוף אותה ולבסוף נעזור ליצחק לשתות ולהנות מהמיץ.</p>
+            <h2>מזהים</h2>
+            <p>על כל תפוח שנופל רשומה תשובה לשאלה, נזהה את התשובות הנכונות.</p>
+            <h2>אוספים</h2>
+            <p>נלחץ על התפוח הנכון ונגרור אותו אל תוך הסל.</p>
+            <h2>שותים</h2>
+            <p>נמלא את הבקבוק במיץ התפוחים ונעזור ליצחק לשתות ולהנות מהמיץ.</p>
+        </div>
+
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="testing size.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
